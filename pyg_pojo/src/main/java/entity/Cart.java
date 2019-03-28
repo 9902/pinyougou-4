@@ -8,9 +8,9 @@ import java.util.List;
 
 public class Cart implements Serializable {
 
-    private String sellerId;  //商家id
-    private String sellerName;//商家名称
-    private List<TbOrderItem> orderItemList; //购物车明细
+    private String sellerId;  // 商家id
+    private String sellerName;// 商家名称
+    private List<TbOrderItem> orderItemList; // 购物车明细
 
     public String getSellerId() {
         return sellerId;
